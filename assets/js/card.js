@@ -11,7 +11,7 @@ export const createCard = (cards) => {
 							${cards.title}
 						</div>                
 						<div class="card-foot">
-							Precio: $${cards.price}                    
+							Precio: $${cards.price} <br>                    
 							Stock: ${cards.available_quantity}    
 						</div>                
 					</div>

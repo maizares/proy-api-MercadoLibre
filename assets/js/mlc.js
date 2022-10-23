@@ -15,8 +15,8 @@ const fnSiguiente = () => {
 };
 
 const fnAnterior = () => {
-    console.log("AAA=>"+v_offset + ">" + cant);
-    if(v_offset > cant){
+    //console.log("AAA=>"+v_offset + ">" + cant);
+    if(v_offset >= cant){
         v_offset -= cant;
         obtenerProdML();   
     }
